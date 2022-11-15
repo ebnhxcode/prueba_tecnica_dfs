@@ -36,7 +36,7 @@ npm run dev
 En caso de requerir una instalación limpia fuera de lo que fue la instalación para las dependencias, favor eliminar el archivo package-lock.json.
 
 ```
-
+rm -rf package-lock.json
 ```
 
 ### node-sass
