@@ -32,14 +32,14 @@ npm run dev
 
 ## Troubleshooting (Opcional)
 
-### package-lock.json
+### package-lock.json
 En caso de requerir una instalación limpia fuera de lo que fue la instalación para las dependencias, favor eliminar el archivo package-lock.json.
 
 ```
 rm -rf package-lock.json
 ```
 
-### node-sass
+### node-sass
 En algunas distribuciones esta librería puede causar mas de un error, para corregir las dependencias asociadas a node-sass favor seguir las siguientes instrucciones:
 
 (Aunque la mejor solucion, es usar una version estable de node)
