@@ -21,6 +21,7 @@ Al levantar esta aplicación se considera que la API Backend ya se encuentre en 
 
 Instalación de dependencias. Ejecutamos:
 ```
+cd app
 npm install
 npm install jquery jquery-ui
 ```
