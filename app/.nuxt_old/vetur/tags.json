@@ -1,0 +1,71 @@
+{
+  "NuxtLogo": {
+    "description": "Auto imported from components/global/NuxtLogo.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/global/Tutorial.vue"
+  },
+  "MenuCardOption": {
+    "description": "Auto imported from components/global/cards/MenuCardOption.vue"
+  },
+  "UserSidebarProfileCard": {
+    "description": "Auto imported from components/global/cards/UserSidebarProfileCard.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/global/sidebars/Sidebar.vue"
+  },
+  "SidebarProfile": {
+    "description": "Auto imported from components/global/sidebars/SidebarProfile.vue"
+  },
+  "ZenkoCardsHallMenuCardOption": {
+    "description": "Auto imported from components/zenko/cards/HallMenuCardOption.vue"
+  },
+  "ZenkoCardsMenuCardAbout": {
+    "description": "Auto imported from components/zenko/cards/MenuCardAbout.vue"
+  },
+  "ZenkoCardsMenuCardOption": {
+    "description": "Auto imported from components/zenko/cards/MenuCardOption.vue"
+  },
+  "ZenkoCardsPostsListsCard": {
+    "description": "Auto imported from components/zenko/cards/PostsListsCard.vue"
+  },
+  "ZenkoCardsUserSidebarProfileCard": {
+    "description": "Auto imported from components/zenko/cards/UserSidebarProfileCard.vue"
+  },
+  "ZenkoSidebarsSidebar": {
+    "description": "Auto imported from components/zenko/sidebars/Sidebar.vue"
+  },
+  "ZenkoSidebarsSidebarProfile": {
+    "description": "Auto imported from components/zenko/sidebars/SidebarProfile.vue"
+  },
+  "FranbeautyCardsMenuCardAbout": {
+    "description": "Auto imported from components/franbeauty/cards/MenuCardAbout.vue"
+  },
+  "FranbeautyCardsUserSidebarProfileCard": {
+    "description": "Auto imported from components/franbeauty/cards/UserSidebarProfileCard.vue"
+  },
+  "FranbeautySidebarsSidebarProfile": {
+    "description": "Auto imported from components/franbeauty/sidebars/SidebarProfile.vue"
+  },
+  "CodegrownCardsHallMenuCardOption": {
+    "description": "Auto imported from components/codegrown/cards/HallMenuCardOption.vue"
+  },
+  "CodegrownCardsMenuCardAbout": {
+    "description": "Auto imported from components/codegrown/cards/MenuCardAbout.vue"
+  },
+  "CodegrownCardsMenuCardOption": {
+    "description": "Auto imported from components/codegrown/cards/MenuCardOption.vue"
+  },
+  "CodegrownCardsPostsListsCard": {
+    "description": "Auto imported from components/codegrown/cards/PostsListsCard.vue"
+  },
+  "CodegrownCardsUserSidebarProfileCard": {
+    "description": "Auto imported from components/codegrown/cards/UserSidebarProfileCard.vue"
+  },
+  "CodegrownSidebarsSidebar": {
+    "description": "Auto imported from components/codegrown/sidebars/Sidebar.vue"
+  },
+  "CodegrownSidebarsSidebarProfile": {
+    "description": "Auto imported from components/codegrown/sidebars/SidebarProfile.vue"
+  }
+}

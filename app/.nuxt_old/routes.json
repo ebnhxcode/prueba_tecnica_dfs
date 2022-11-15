@@ -1,0 +1,79 @@
+[
+  {
+    "name": "codegrown",
+    "path": "/codegrown",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/codegrown/index.vue",
+    "chunkName": "pages/codegrown/index",
+    "_name": "_c018f1fe"
+  },
+  {
+    "name": "franbeauty",
+    "path": "/franbeauty",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/franbeauty/index.vue",
+    "chunkName": "pages/franbeauty/index",
+    "_name": "_e190b9d0"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/home/index.vue",
+    "chunkName": "pages/home/index",
+    "_name": "_b18fac7c"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_52a8dfbc"
+  },
+  {
+    "name": "recordmusic",
+    "path": "/recordmusic",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/recordmusic/index.vue",
+    "chunkName": "pages/recordmusic/index",
+    "_name": "_3f34b107"
+  },
+  {
+    "name": "zenko",
+    "path": "/zenko",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/zenko/index.vue",
+    "chunkName": "pages/zenko/index",
+    "_name": "_d8480bcc"
+  },
+  {
+    "name": "codegrown-faqs",
+    "path": "/codegrown/faqs",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/codegrown/faqs/index.vue",
+    "chunkName": "pages/codegrown/faqs/index",
+    "_name": "_4d56e0c1"
+  },
+  {
+    "name": "codegrown-home",
+    "path": "/codegrown/home",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/codegrown/home/index.vue",
+    "chunkName": "pages/codegrown/home/index",
+    "_name": "_4e1719fa"
+  },
+  {
+    "name": "codegrown-privacy",
+    "path": "/codegrown/privacy",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/codegrown/privacy/index.vue",
+    "chunkName": "pages/codegrown/privacy/index",
+    "_name": "_ddcdc38c"
+  },
+  {
+    "name": "codegrown-terms",
+    "path": "/codegrown/terms",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/codegrown/terms/index.vue",
+    "chunkName": "pages/codegrown/terms/index",
+    "_name": "_c8f2e98e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/hat/Projects/VueProjects/codegrown_prototypes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_02da54e2"
+  }
+]

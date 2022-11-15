@@ -1,0 +1,92 @@
+// $__legacy-libsass: true;
+
+// Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+// @import "~bootstrap/scss/_variables.scss";
+// BootstrapVue and its default variables
+@import "~bootstrap-vue/src/index.scss";
+
+
+// Responsive font
+$enable-responsive-font-sizes:                true !default;
+
+
+// Base grayscale colors definitions
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// Base colors definitions
+$black: #000 !default;
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$rose: #c74375 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$gold: #D7B740 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$cyan-light: #0ccbe9 !default;
+$turquoise: #38ded0 !default;
+$turquoise-light: #8AE0DB !default;
+
+// Theme color default definitions
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+
+
+// $rounded-circle: border-radius: 50% !default;
+
+// This table defines the theme colors (variant names)
+$theme-colors: () !default;
+$theme-colors: map-merge(
+	(
+		"primary": $primary,
+		"secondary": $secondary,
+		"success": $success,
+		"info": $info,
+		"warning": $warning,
+		"danger": $danger,
+		"light": $light,
+		"dark": $dark,
+
+		"black": $black,
+		"blue": $blue,
+		"indigo": $indigo,
+		"purple": $purple,
+		"pink": $pink,
+		"rose": $rose,
+		"red": $red,
+		"orange": $orange,
+		"yellow": $yellow,
+		"gold": $gold,
+		"green": $green,
+		"teal": $teal,
+		"cyan": $cyan,
+		"cyan-light": $cyan-light,
+		"turquoise": $turquoise,
+		"turquoise-light": $turquoise-light,
+	),
+	$theme-colors
+);
+
+

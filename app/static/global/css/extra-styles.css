@@ -1,0 +1,50 @@
+.jumbotron-hero {
+	height:100vh!important;
+}
+
+.main {
+	/* Para uso general */
+	/*  background-color: #fffff9; */
+	/* background-color: #f9ffff; */ /* celeste claro */
+	background-color: #f6faff; /* gris claro */
+	min-height: 70vh;
+}
+
+.rounded-semicircle {
+  border-radius: 25% !important;
+}
+
+
+.rounded-semicircle-5 {
+  border-radius: 5% !important;
+}
+
+.rounded-semicircle-10 {
+  border-radius: 10% !important;
+}
+
+.sticky-aside {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+  /* padding: 0 15px; */
+}
+
+.sticky-header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 65px;
+}
+
+
+.sticky-footer {
+	position: sticky;
+	bottom: 20px;
+}
+
+
+.wrapper {
+	/* display: flex; */
+	width: 100%;
+	align-items: stretch;
+}

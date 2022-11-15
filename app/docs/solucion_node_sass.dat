@@ -1,0 +1,29 @@
+
+Link: https://stackoverflow.com/questions/46515077/unable-to-install-node-sass-in-my-project#:~:text=2%20Answers&text=Uninstall%20node%2Dsass%3A%20npm%20uninstall,%3A%20npm%20install%20node%2Dsass%20.
+
+npm config set package-lock false
+npm config set package-lock true
+
+
+npm rebuild node-sass
+
+
+npm install -g --unsafe-perm node-sass --save
+
+
+npm install --save-dev sass sass-loader@10 fibers
+
+
+npm install --save-dev node-sass node-gyp
+
+
+npm i -g npm
+
+La mejor solucion, usar una version estable de node jeje
+
+
+fix iconos con error en algunos casos
+npm install material-design-icons-iconfont --save
+
+
+
