@@ -1,76 +1,60 @@
+# Prueba Técnica Desarrollador Full Stack (Frontend)
 
-# App Wapii Porticos
+Aplicación/API de lado del Frontend que consumirá api de datos gob backend.
 
-## Configuración e Instalación en Desarrollo
+## Requisitos
 
-### Paso 1: Lectura de Requisitos Previos
+Los aspectos considerados son:
+- [x] Desarrollo de api para la resolución de la prueba técnica.
 
-- [x] Make
-- [x] SO basado en Debian o Debian 11
+Tecnologías usadas en el desarrollo de la api:
+- [x] Javascript.
+- [x] Docker.
+- [x] Docker compose.
+- [x] Entorno de desarrollo Unix (Recomendado), aunque también se puede en Wsl2 de windows.
+- [x] Tener la API corriendo en el puerto 5555.
 
-#### Paso 2 : Instalación de dependencias base en el sistema operativo o máquina virtual
+Consideraciones específicas previas:
+Al levantar esta aplicación se considera que la API Backend ya se encuentre en ejecución y exponiendo el servicio rest a través del puerto 5555.
 
-Para poder usar los programas habilitados por make es necesario instalar las dependencias necesarias para su ejecucución.
-Para ello nos dirigimos al subdirectorio dockerfiles/bin.d.
-Otorgamos permisos de ejecución al archivo init_deps_install.sh y luego lo ejecutamos.
+## Instalación
 
+Instalación de dependencias. Ejecutamos:
 ```
-cd dockerfiles/bin.d
-chmod +x init_deps_install.sh
-./init_deps_install.sh
-```
-
-Este script instalará lo escencial para poder ejecutar make y los programas creados.
-
-#### Paso 3 : Instalación de CUPS y CUPS PDF impresora local o por defecto en el sistema.
-
-En el mismo subdirectorio ingresado anteriormente dockerfiles/bin.d.
-Otorgamos permisos de ejecución al archivo cups_install.sh y luego lo ejecutamos.
-
-```
-chmod +x cups_install.sh
-./cups_install.sh
+npm install
 ```
 
-### Paso 4: Instalación de programas con Make
-
-El fichero makefile tiene los siguientes programas disponibles:
+Servir aplicación. Ejecutamos:
 ```
-docker: install_docker
-dockercompose: install_docker_compose
-npm: install_npm
-local: app_wapii_view_local
-runlocal: run_app_wapii_view_local
-testprinter: test_printer
-```
-Por lo tanto, para instalar es necesario seguir ese orden, basta con ejecutar lo siguiente en la linea de comandos:
-
-##### Instalar docker
-```
-make docker
+npm run dev
 ```
 
-##### Instalar docker-compose
-```
-make dockercompose
+## Troubleshooting (Opcional)
+
+### package-lock.json
+En caso de requerir una instalación limpia fuera de lo que fue la instalación para las dependencias, favor eliminar el archivo package-lock.json.
+
 ```
 
-##### Instalar nodejs y npm
-```
-make npm
 ```
 
-##### Instalar aplicación
-```
-make local
-```
+### node-sass
+En algunas distribuciones esta librería puede causar mas de un error, para corregir las dependencias asociadas a node-sass favor seguir las siguientes instrucciones:
 
-##### Levantar aplicación instalada
-```
-make runlocal
-```
+(Aunque la mejor solucion, es usar una version estable de node)
 
-##### Realizar una prueba de impresión a la impresora por defecto
+
 ```
-make testprinter
+npm config set package-lock false
+npm config set package-lock true
+
+npm rebuild node-sass
+
+npm install -g --unsafe-perm node-sass --save
+
+npm install --save-dev sass sass-loader@10 fibers
+
+npm install --save-dev node-sass node-gyp
+
+npm i -g npm
 ```
